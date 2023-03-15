@@ -5,3 +5,17 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono';
 }
+
+ul,li {
+    list-style: none;
+}
+
+img {
+    width: 130%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+
+}
