@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/productDetail.css">
+    <script src="../assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/jquery/jquery-3.6.3.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content ">
+        <div class="modal-body product-detail" style="padding: 0;">
+          <h4 class="modal-title product-detail-title" id="productModalLabel">${item.title}</h4>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6">
+              <img src="https://img1.oto.com.vn/crop/262x196/2023/03/04/20230304134822-0367_wm.jpg"
+               alt="program-image" width="100%">
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6" style="display: flex; align-items: center; flex-direction: column;">
+              <div class="row product-detail-subtitle">
+                <p class="col-6">
+                  <span>
+                    <img src="../assets/imgs/icons/calendar.svg" alt="calendar">
+                    Năm SX
+                  </span>
+                  <span>${item.nam_sx}</span>
+                </p>
+                <p class="col-6">
+                  <span>
+                    <img src="../assets/imgs/icons/steering.svg" alt="steering">
+                    Tình trạng</span>
+                  <span>${item.tinh_trang}</span>
+                </p>
+                <p class="col-6">
+                  <span>
+                    <img src="../assets/imgs/icons/odo.svg" alt="odo">
+                    Odo
+                  </span>
+                  <span>${item.km}</span>
+                </p>
+                <p class="col-6">
+                  <span>
+                    <img src="../assets/imgs/icons/location.svg" alt="location">
+                    Tỉnh thành
+                  </span>
+                  <span>${item.tinh_thanh}</span>
+                </p>
+                <p class="col-6">
+                  <span>
+                    <img src="../assets/imgs/icons/gear.svg" alt="gear">
+                    Hộp số
+                  </span>
+                  <span>${item.hop_so}</span>
+                </p>
+                <p class="col-6">
+                  <span>
+                    <img src="../assets/imgs/icons/gas.svg" alt="gas">
+                    Nhiên liệu
+                  </span>
+                  <span>${item.nhien_lieu}</span>
+                </p>
+              </div>
+              <h3 class="product-detail-price">8.562.000.000 VND</h3>
+                <button type="button" class="btn btn-secondary"
+                              style="--bs-btn-border-radius: 0; --bs-btn-padding-y: .5rem;
+                              --bs-btn-padding-x: 1.25rem; --bs-btn-font-size: 1rem; display: flex; justify-content: center; margin-left: -30px;">
+                              ĐẶT HÀNG
+                          </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-detail-desc">
+          <h5>MÔ TẢ</h5>
+          <p>
+            ${item.desc}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+</body>
+</html>

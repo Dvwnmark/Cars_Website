@@ -3,19 +3,19 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono';
+    letter-spacing: 1px;
+    font-family:  'Roboto Mono', sans-serif;
 }
 
 ul,li {
     list-style: none;
 }
 
-img {
-    width: 130%;
-    height: auto;
-}
-
 a {
     text-decoration: none;
+    color: black;
+}
 
+h4 {
+    letter-spacing: 3px;
 }

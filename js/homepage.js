@@ -1,4 +1,4 @@
-import spotlight from "../data/spotlight.json" assert { type: "json" };
+import new_car from "../data/new_car.json" assert { type: "json" };
 
 const carSpotlightElement = document.querySelector("#nav-tabContent")
 
@@ -7,22 +7,22 @@ const carElement = carSpotlightElement.querySelector(".active")
 const carType = carElement.getAttribute("id").split("nav-")[1]
 const carContainer = carElement.querySelector(".spotlight-container")
 const moreCar = carElement.querySelector("a")
-console.log(moreCar);
+// console.log(moreCar);
 if (carElement) {
     if(carType =='suv') {
-        var listProduct =spotlight.suv?.slice(0, 8);
+        var listProduct =new_car.suv?.slice(0, 8);
     } else if(carType=='sedan') {
-        var listProduct =spotlight.sedan?.slice(0, 8);
+        var listProduct =new_car.sedan?.slice(0, 8);
     } else if(carType=='mpv') {
-        var listProduct =spotlight.mpv?.slice(0, 8);
+        var listProduct =new_car.mpv?.slice(0, 8);
     } else if(carType=='cuv') {
-        var listProduct =spotlight.cuv?.slice(0, 8);
+        var listProduct =new_car.cuv?.slice(0, 8);
     } else if(carType=='pickup') {
-        var listProduct =spotlight.pickup?.slice(0, 8);
+        var listProduct =new_car.pickup?.slice(0, 8);
     } else {
-        var listProduct =spotlight.hatchback?.slice(0, 8);
+        var listProduct =new_car.hatchback?.slice(0, 8);
     }
-    console.log(listProduct);
+    // console.log(listProduct);
     carContainer.innerHTML = listProduct
     ?.map(
         (item, index) => `
@@ -30,7 +30,7 @@ if (carElement) {
                 <a href='./productDetail.html?brand=${item.typeID}&id=${item.id}'
                     class="item col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <div  style="height:130px">
-                        <img src=${item.img} alt="item-0">
+                        <img src=${item.img} alt="item-${item.id}">
                     </div>
                     <div class="item-info">
                         <h4 class="name">${item.brand}</h4>

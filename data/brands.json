@@ -1,8 +1,56 @@
 [
     {
-
+        "name":"Toyota",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/toyota.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
     },
     {
-
+        "name":"Honda",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/honda.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"Huyndai",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/hyundai.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"Kia",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/kia.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"Ford",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/ford.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"Mazda",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/mazda.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"Mercedes-Benz",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/mercedes-benz.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"Lexus",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/lexus.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
+    },
+    {
+        "name":"BMW",
+        "logo": "https://img1.oto.com.vn/Static/Images/logo/v3/bmw.png",
+        "img":"https://img1.oto.com.vn/crop/575x430/2023/03/01/20230301120106-6a94_wm.jpg",
+        "link":"../html"
     }
 ]
